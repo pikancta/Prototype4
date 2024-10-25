@@ -697,6 +697,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Aos Emerald
       objectReference: {fileID: 0}
+    - target: {fileID: 144794176329935949, guid: 6e69ba9499a96ed4b9fa5ba655a1f553, type: 3}
+      propertyPath: m_TagString
+      value: PowerUp
+      objectReference: {fileID: 0}
     - target: {fileID: 6771433951511779722, guid: 6e69ba9499a96ed4b9fa5ba655a1f553, type: 3}
       propertyPath: m_RootOrder
       value: 1
