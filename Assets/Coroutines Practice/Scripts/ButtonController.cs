@@ -30,7 +30,7 @@ public class ButtonController : MonoBehaviour
         isPushed = false;
     }
 
-    public void Shoot()
+    //public void Shoot();
         
 
 }
