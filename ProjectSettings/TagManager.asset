@@ -8,6 +8,7 @@ TagManager:
   - Destroyable
   - PowerUp
   - Enemy
+  - Powerup
   layers:
   - Default
   - TransparentFX

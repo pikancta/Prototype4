@@ -22,13 +22,12 @@ public class SpawnManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        enemyCount = FindObjectsOfType<Enemy>().Length;
         if (enemyCount == 0)
         {
-            waveNumber++;
+            Instantiate(powerupPrefab, GenerateSpawnPosition(), powerupPrefab.transform.rotation); waveNumber++;
             SpawnEnemyWave(waveNumber);
-            Instantiate(powerupPrefab, GenerateSpawnPosition(), powerupPrefab.transform.rotation);
         }
+        enemyCount = FindObjectsOfType<Enemy>().Length;
     }
 
     void SpawnEnemyWave(int enemiesToSpawn)
